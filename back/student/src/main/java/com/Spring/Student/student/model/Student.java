@@ -24,7 +24,7 @@ public class Student {
     private String phone;
     private String age;
     private String adress;
-    @Enumerated(EnumType.ORDINAL)
+    @Enumerated(EnumType.STRING)
     private Gender gender;
     @CreationTimestamp
     private Date dateCreate;
