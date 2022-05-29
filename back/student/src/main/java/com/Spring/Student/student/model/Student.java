@@ -27,6 +27,7 @@ public class Student {
     @Enumerated(EnumType.STRING)
     private Gender gender;
     @CreationTimestamp
+    @Column(name = "dateCreate")
     private Date dateCreate;
     @UpdateTimestamp
     private Date dateUpdate;
