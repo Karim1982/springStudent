@@ -1,0 +1,11 @@
+.mr-auto {
+    margin-right: 250px!important;
+}
+.control{
+   right: 20px ;
+   position: absolute;
+}
+.btn{
+    margin-left: 5px;
+    color: white;
+}
